@@ -7,7 +7,7 @@ public class EncoderTest {
 
     @Test
     void testEncode() {
-        System.out.println(new BCryptPasswordEncoder().encode("user2"));
+        System.out.println(new BCryptPasswordEncoder().encode("pass2"));
     }
 
 }
